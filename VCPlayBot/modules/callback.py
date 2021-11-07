@@ -30,16 +30,16 @@ async def cbstart(_, query: CallbackQuery):
                          "📚 Commands", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "💝 Donate", url=f"https://t.me/ucant_surpassmebruh")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "👥 Official Group", url=f"https://t.me/luvchaeyoung_botupdates"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "📣 Official Channel", url=f"https://t.me/RoseannePark_updates")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QuennArzoo/VCPlayBot"
+                        "🧪 Contact creator 🧪", url="f"https://t.me/ucant_surpassmebruh")"
                     )
                 ]
             ]
@@ -246,9 +246,9 @@ async def cbfun(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>🏮 here is the fun commands</b>
 
-/chika - check it by yourself
-/wibu - check it by yourself
-/asupan - check it by yourself
+/lobuwu - check it by yourself
+/niceone - check it by yourself
+/cringr - check it by yourself
 /truth - check it by yourself
 /dare - check it by yourself
 
