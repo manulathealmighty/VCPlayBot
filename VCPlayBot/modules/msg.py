@@ -5,7 +5,7 @@ from VCPlayBot.config import PROJECT_NAME
 from VCPlayBot.config import SUPPORT_GROUP
 from VCPlayBot.config import UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info.\n\n Join @Girls_And_Boys_Chatting"
+      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created by @ucant_surpassmebruh for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info.\n\n "
       HELP_MSG = [
         ".",
 f"""
@@ -15,7 +15,7 @@ f"""
 
 ⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
 
-Join @Girls_And_Boys_Chatting
+
 """,
 
 f"""
@@ -31,7 +31,7 @@ f"""
 2) Send /userbotjoinchannel in linked group
 3) Now send commands in linked group
 
-Join @Girls_And_Boys_Chatting
+
 """,
 f"""
 **Commands**
