@@ -656,7 +656,7 @@ async def jiosaavn(client: Client, message_: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await lel.edit(
-                        "<b>helper userbot joined your channel</b>",
+                        "<b>Helper userbot joined your channel</b>",
                     )
 
                 except UserAlreadyParticipant:
