@@ -45,7 +45,7 @@ async def autopmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("Approoved to PM due to outgoing messages")
+        await message.reply_text("Approved to PM due to outgoing messages")
         return
     message.continue_propagation()    
     
@@ -54,7 +54,7 @@ async def pmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("Approoved to PM")
+        await message.reply_text("Approved to PM")
         return
     message.continue_propagation()    
     
@@ -64,6 +64,6 @@ async def rmpmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if chat_id in pchats:
         pchats.remove(chat_id)
-        await message.reply_text("Dispprooved to PM")
+        await message.reply_text("Disapproved to PM")
         return
     message.continue_propagation()
