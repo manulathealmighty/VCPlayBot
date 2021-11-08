@@ -51,9 +51,9 @@ async def cbstart(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbhelp"))
 async def cbhelp(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>💡 Hello there, welcome to the help menu !</b>
+        f"""<b>💡 Hello there, Welcome to the help menu !</b>
 
-**in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
+**In this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
@@ -160,7 +160,7 @@ async def cbadvanced(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbadmin"))
 async def cbadmin(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>🏮 here is the admin commands</b>
+        f"""<b>🏮 Here are the admin commands</b>
 
 /player - show the music playing status
 /pause - pause the music streaming
