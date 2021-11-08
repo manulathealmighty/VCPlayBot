@@ -38,7 +38,7 @@ f"""
 
 **=>> Song Playing 🎧**
 
-- /play: Play the requestd song
+- /play: Play the requested song
 - /play [yt url] : Play the given yt url
 - /play [reply yo audio]: Play replied audio
 - /splay: Play song via jio saavn
@@ -55,7 +55,7 @@ f"""
 - /playlist: Shows playlist
 
 *Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
-Join @Girls_And_Boys_Chatting
+
 """,
 
 f"""
@@ -76,14 +76,14 @@ f"""
 
 channel is also can be used instead of c ( /cplay = /channelplay )
 
-⚪️ If you donlt like to play in linked group:
+⚪️ If you don't like to play in linked group:
 
 1) Get your channel ID.
-2) Create a group with tittle: Channel Music: your_channel_id
-3) Add bot as Channel admin with full perms
+2) Create a group with title: Channel Music: your_channel_id
+3) Add bot as Channel admin with full permissions
 4) Add @{ASSISTANT_NAME} to the channel as an admin.
 5) Simply send commands in your group. (remember to use /ytplay instead /play)
-Join @Girls_And_Boys_Chatting
+
 """,
 
 f"""
@@ -92,7 +92,7 @@ f"""
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
-Join @Girls_And_Boys_Chatting
+
 """,
 f"""
 **=>> Song Download 🎸**
@@ -106,7 +106,7 @@ f"""
 
 - /search [song name]: Search youtube for songs
 - /lyrics [song name]: Get song lyrics
-Join @Girls_And_Boys_Chatting
+
 """,
 
 f"""
@@ -116,6 +116,6 @@ f"""
  - /broadcast <reply to message> - globally brodcast replied message to all chats
  - /pmpermit [on/off] - enable/disable pmpermit message
 *Sudo Users can execute any command in any groups
-Join @Girls_And_Boys_Chatting
+
 """
       ]
